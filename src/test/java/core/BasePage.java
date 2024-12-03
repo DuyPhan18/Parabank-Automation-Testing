@@ -17,15 +17,31 @@ public class BasePage {
     protected WebDriverWait wait;
     private WebDriverWait waitWithSpecificTimeout;
 
+
     public BasePage (WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.TIMEOUT));
         PageFactory.initElements(driver, this);
     }
     public void navigateToLoginPage(){
-        driver.navigate().to(Constants.LOGINPAGE_URL);
+        driver.navigate().to(Constants.HOMEPAGE_URL);
     }
-
+    public void sendKeyTo(WebElement element, String text){
+        try {
+           isElementVisibility(element);
+            element.sendKeys(text);
+        }catch (TimeoutException e){
+            System.out.println(e);
+        }
+    }
+    public void clickToElement(WebElement element){
+        try {
+            isElementVisibility(element);
+            element.click();
+        }catch (TimeoutException e){
+            System.out.println("Error" + e);
+        }
+    }
     public boolean isElementVisibility(WebElement element){
         try {
             wait.until(ExpectedConditions.visibilityOf(element));
