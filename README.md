@@ -3,9 +3,9 @@
 ## Chức năng trên Parabank để kiểm thử
 ### Đăng nhập (Login)
 
-Gồm các trường: Username và Password.
-Kịch bản kiểm thử: \\
-Đăng nhập thành công với thông tin hợp lệ. \\
+- Gồm các trường: Username và Password.
+- Kịch bản kiểm thử:
+- Đăng nhập thành công với thông tin hợp lệ.
 Thử đăng nhập với thông tin sai.
 
 ### Đăng ký tài khoản (Register)
