@@ -4,17 +4,17 @@
 ### Đăng nhập (Login)
 
 Gồm các trường: Username và Password.
-Kịch bản kiểm thử:
-Đăng nhập thành công với thông tin hợp lệ.
+Kịch bản kiểm thử:\\
+Đăng nhập thành công với thông tin hợp lệ.\\
 Thử đăng nhập với thông tin sai.
 
 ### Đăng ký tài khoản (Register)
 
-Gồm các trường thông tin: First Name, Last Name, Address, Username, Password.
-Kịch bản kiểm thử:
-Điền đúng thông tin và tạo tài khoản.
-Bỏ trống các trường bắt buộc.
-Nhập thông tin không hợp lệ (ví dụ: Email sai định dạng).
+Gồm các trường thông tin: First Name, Last Name, Address, Username, Password.\\
+Kịch bản kiểm thử:\\
+Điền đúng thông tin và tạo tài khoản.\\
+Bỏ trống các trường bắt buộc.\\
+Nhập thông tin không hợp lệ (ví dụ: Email sai định dạng).\\
 
 ### Chuyển tiền (Transfer Funds)
 
