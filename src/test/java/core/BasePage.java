@@ -23,7 +23,7 @@ public class BasePage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.TIMEOUT));
         PageFactory.initElements(driver, this);
     }
-    public void navigateToLoginPage(){
+    public void navigateToHomePage(){
         driver.navigate().to(Constants.HOMEPAGE_URL);
     }
     public void sendKeyTo(WebElement element, String text){

@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
         sendKeyTo(passwordInput, Constants.password);
     }
 
-    public void clickToBtn(){
+    public void clickToLoginBtn(){
         clickToElement(loginBtn);
     }
 
